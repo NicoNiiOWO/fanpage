@@ -4,12 +4,18 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: #303030;
+    color: white;
+    font-family: "Comic Sans MS";
 }
 a {
     text-decoration: none;
 }
-
+.header{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
 .main {
     height: 100%;
 }
