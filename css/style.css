@@ -1,25 +1,62 @@
 html {
     height: 100%;
 }
-
 body {
     height: 100%;
     background-color: #303030;
     color: white;
     font-family: "Comic Sans MS";
 }
-a {
+.social{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+.navbar a {
     text-decoration: none;
+    color:white;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding:4px;
+    background-color: darkgray;
 }
 .header{
     display: flex;
     text-align: center;
+    justify-content: center;
     padding: 10px;
 }
-.main {
-    height: 100%;
+.navbar{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+.main{
+    height: 70vh;
+}
+.footer{
+    margin: 10px;
+    text-align: center;
 }
 .social-image{
     width: 30px;
-    margin: 15px;
+}
+
+#gallery .row{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.thumbnail img{
+    display: block;
+    width: 20vw;
+    margin: 10px;
+}
+.aboutMain{
+    display: flex;
+}
+.leftPane{
+    justify-content: center;
 }
