@@ -1,10 +1,15 @@
+const png = 26;
+const jpg = 33;
+const jpeg = 9;
+const total = png+jpg+jpeg;
+
 function img(){
     let f=0;
     let x=1;
-    let roww=1;
-    let div;
     let row=1;
-    for(let i=1; i<=68; i++){
+    let div;
+    let roww=1;
+    for(let i=1; i<=total; i++){
         if(i%4==0){
             div = document.createElement("div");
             div.setAttribute("class", "row");
@@ -15,7 +20,7 @@ function img(){
 
     }
     
-    for(let i=1; i<=68; i++){
+    for(let i=1; i<=total; i++){
         let thumbnail = document.createElement("div");
         let img = document.createElement("img");
         thumbnail.setAttribute("class", "thumbnail");
@@ -40,13 +45,13 @@ function img(){
             let e = document.getElementById("row"+roww);
             e.appendChild(thumbnail);
         });
-        if(f==0 && i==26){
+        if(f==0 && i==png){
             i=0;
             f++;
-        }else if(f==1 && i==33){
+        }else if(f==1 && i==jpg){
             i=0;
             f++;
-        }if(f==2 && i==9){
+        }if(f==2 && i==jpeg){
             i=0;
             f++;
         }

@@ -35,6 +35,12 @@ body {
 }
 .main{
     height: 70vh;
+    background-image: url("../dab.png");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+.rightPane{
+        background-image: url("../dab.png");
 }
 .footer{
     margin: 10px;

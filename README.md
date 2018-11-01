@@ -11,7 +11,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Go to the repository at https://github.com/ScriptEdcurriculum/fanpage
 - [x] Fork this repository to your github account and clone to a new workspace
 - [x] Add, commit, and push your changes
-- [ ] Make your site live on gh-pages
+- [x] Make your site live on gh-pages
 #### HTML
 - [x] Change the header to display the name of the fan page on each html page
 - [x] Link the a tags in the navbar to the correct .html files on each html page
@@ -20,12 +20,12 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Add images to the gallery thumbnails in gallery.html
 #### CSS
 - [x] Use CSS to change the background-color and/or font color on the page.
-- [ ] Use CSS to change the background-image of the div with the class of main
+- [x] Use CSS to change the background-image of the div with the class of main
 - [ ] Use CSS to change the background-image of the div with the class of rightPane.
 
 #### Wrap
 - [x] Push your changes!
-- [ ] Save and submit your Fanpage website using the link on the Daily Session Document.
+- [x] Save and submit your Fanpage website using the link on the Daily Session Document.
 
 ## Day 2
 #### CSS
@@ -36,14 +36,14 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Use flexbox to format your about page. 
 
 #### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 3
 #### CSS
-- [ ] Using the box model properties, style your thumbnails on the gallery page. 
+- [x] Using the box model properties, style your thumbnails on the gallery page. 
 
 #### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Extensions
 - [ ] Use Google Fonts to add a new font to your site.
