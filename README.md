@@ -21,7 +21,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 #### CSS
 - [x] Use CSS to change the background-color and/or font color on the page.
 - [x] Use CSS to change the background-image of the div with the class of main
-- [ ] Use CSS to change the background-image of the div with the class of rightPane.
+- [x] Use CSS to change the background-image of the div with the class of rightPane.
 
 #### Wrap
 - [x] Push your changes!

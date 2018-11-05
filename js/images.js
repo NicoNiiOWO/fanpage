@@ -9,7 +9,7 @@ function img(){
     let row=1;
     let div;
     let roww=1;
-    for(let i=1; i<=total; i++){
+    for(let i=0; i<=total; i++){
         if(i%4==0){
             div = document.createElement("div");
             div.setAttribute("class", "row");
@@ -37,6 +37,7 @@ function img(){
         $.get(dir).done(function() { 
     	    img.setAttribute("src", dir);
     	    thumbnail.appendChild(img);
+    	    console.log(img)
         }).then(function(){
             x++;
             if(x%4==0){

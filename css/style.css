@@ -39,9 +39,6 @@ body {
     background-size: 100vw;
     background-repeat: no-repeat;
 }
-.rightPane{
-        background-image: url("../dab.png");
-}
 .footer{
     margin: 10px;
     text-align: center;
@@ -59,10 +56,14 @@ body {
     display: block;
     width: 20vw;
     margin: 10px;
+    border: solid 3px #ff1654;
 }
 .aboutMain{
     display: flex;
 }
 .leftPane{
     justify-content: center;
+}
+.rightPane{
+    background-image: url("../dab.png");
 }
